@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie</title>
+</head>
+<body>
+    {%  for movie in movie_list %}
+        <h1>{{ movie.title }}</h1>
+        <img src="{{ movie.img }}">
+    {% endfor %}
+</body>
+</html>
